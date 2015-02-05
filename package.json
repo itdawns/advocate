@@ -1,0 +1,19 @@
+{
+  "name": "lodash-templates",
+  "version": "1.0.0",
+  "description": "load lodash templates from directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "fs": "0.0.2",
+    "js-yaml": "^3.2.5",
+    "lodash": "^3.1.0",
+    "node-dir": "^0.1.6",
+    "path": "^0.11.14"
+  }
+}
