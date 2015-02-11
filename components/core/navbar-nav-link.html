@@ -6,4 +6,4 @@ parameters:
 
 ?>
 
-<li class="{{= item.active ? active : ''}}"><a href="#">{{= item.name }}</a></li>        
+<li class="<%= typeof active === 'undefined' ? '' : active %>"><a href="#"><%= typeof name === 'undefined' ? 'name' : name %></a></li>        

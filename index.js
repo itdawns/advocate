@@ -1,22 +1,47 @@
 // Script Entry Points
 
-var yaml = require('js-yaml');
+var _ = require('lodash'),
+    yaml = require('js-yaml'),
+    Component = require('./lib/component'),
+    Structure = require('./lib/structure'),
+    fs = require('fs');
 
 var commands = {
-
-    // node index.js render ...        
+    
     compile: function(options) {        
         console.log('Compiling All Components');
 
-        require('./lib/component').loadAll(function(err, loaded) {
-            //console.log(loaded);
-            console.log(yaml.dump(loaded))
-        });
+        Component.Loader.loaddir(function(loaded) {
+            var src = _.map(loaded, function(v, k) {
+                return "module.exports['"+k+"'] = " + v.source() + ";";
+            });
+
+            var path = __dirname + '/compiled/templates.js';
+            fs.writeFile(path, src.join("\n"), function(err) {
+                if (err) throw err;
+
+                console.log('saved: ' + path);
+            });
+        })
     },
 
     // node index.js render ...
     render: function() {
-        console.log('Render');
+        _.map(templates, function(v, k) {
+            console.log(v());
+        });
+    },
+
+    // structure
+    structure: function() {
+        Structure.Loader.loaddir(function(loaded) {
+            console.log(JSON.stringify(loaded, false, 4));
+
+            var renderer = loaded['navbar'].renderer();
+            console.log(renderer());
+
+            // console.log(JSON.stringify(loaded['navbar'].componentTree(), false, 4));
+        });
     },
 
     // node index.js config ...
