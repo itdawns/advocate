@@ -1,9 +1,7 @@
 <?
-
-parameters:
-  name: Link 1
-  active: true
-
+config:
+    name:
+    active:
 ?>
 
-<li class="<%= typeof active === 'undefined' ? '' : active %>"><a href="#"><%= typeof name === 'undefined' ? 'name' : name %></a></li>        
+<li class="<%= active %>"><a href="#"><%= name %></a></li>

@@ -1,9 +1,6 @@
 <?
-
-parameters:
-  - title:
-  - body:
-
+config:
+    title:
 ?>
 
 
@@ -18,7 +15,7 @@ parameters:
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>{{title}}</title>
+    <title><%= title %></title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +24,7 @@ parameters:
 
 <body id="page-top" class="index">
 
+    <%= mountpoint %>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
