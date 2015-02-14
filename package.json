@@ -1,8 +1,8 @@
 {
-  "name": "lodash-templates",
+  "name": "advocate",
   "version": "1.0.0",
-  "description": "load lodash templates from directory",
-  "main": "index.js",
+  "description": "static site generator for web teams",
+  "main": "advocate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
