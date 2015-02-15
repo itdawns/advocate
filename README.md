@@ -1,6 +1,13 @@
 # Advocate
 
+Advocate generates websites, saving you from HTML, depression, and baldness.
+
+# Vision
+
+Advocate is all about enabling participation in the global connected society. People share ideas, share information, teach, imagine, find creative synergy and do amazing things. However, building a simple webpage requires expertise that less than 1% of people have.
 Advocate does some handy stuff:
+
+# Bullet Points (pew pew! *headshot*)
 
  - generates pages
  - content creators and designers work with understandable components, not HTML/CSS/JS.
@@ -29,13 +36,13 @@ It's easy:
 7. Deploy wherever you like! (github pages perhaps?)
 
 
-## Does your website ride the mammoth?
+## Does your website ride the Mammoth?
 
-Advocate is all about enabling participation in global society. We want to share the power to voice opinions, share information, teach, think, find synergy and create. Mammoth is its hardware steed.
+Advocate shows up to all parties riding Mammoth.
 
-Mammoth is a malleable router used for privacy, mesh networking, security (such as housing cryptocurrency wallets), and bridging 'fragmented internets' such as Tor, Maidsafe, Freenet, etc.
+Mammoth is a malleable router used for mesh networking, privacy & security (ex. runs cryptocurrency wallets), and bridging 'fragmented internets' such as Tor, Maidsafe, Freenet, etc.
 
-Mammoth has tools for automatically replicating your pages across these internets, multiplying its audience, and immortalizing it's existence.
+Mammoth deploys pages to multiple internets, **multiplying** its audience, and **immortalizing it** in distributed networks.
 
 Mammoth + Advocate = MAX Vol.
 
