@@ -38,12 +38,10 @@ It's easy:
 
 ## Does your website ride the Mammoth?
 
-Advocate gets around riding Mammoth.
-
 Mammoth is a malleable router used for mesh networking, privacy & security (ex. runs cryptocurrency wallets), and bridging 'fragmented internets' such as Tor, Maidsafe, Freenet, etc.
 
 Mammoth deploys pages to multiple internets, **multiplying** its audience, and **immortalizing it** in distributed networks. Mammoths don't stop for red lights.
 
 Mammoth + Advocate = MAX Vol.
 
-(Read More)[https://itdawns.org/]
+[Read More](https://itdawns.org/)
