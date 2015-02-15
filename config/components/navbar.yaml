@@ -4,6 +4,6 @@
     - component: core/navbar-header
     - component: core/navbar-nav
       mounts:
-        - component: core/navbar-nav-link
-        - component: core/navbar-nav-link
-        - component: core/navbar-nav-link
+          - component: core/navbar-nav-link
+          - component: core/navbar-nav-link
+          - component: core/navbar-nav-link
