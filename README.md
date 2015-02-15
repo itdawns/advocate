@@ -27,3 +27,16 @@ It's easy:
 6. Save the generated webpage! (with html, css, js, images, etc.)
 
 7. Deploy wherever you like! (github pages perhaps?)
+
+
+## Does your website ride the mammoth?
+
+Advocate is all about enabling participation in global society. We want to share the power to voice opinions, share information, teach, think, find synergy and create. Mammoth is its hardware steed.
+
+Mammoth is a malleable router used for privacy, mesh networking, security (such as housing cryptocurrency wallets), and bridging 'fragmented internets' such as Tor, Maidsafe, Freenet, etc.
+
+Mammoth has tools for automatically replicating your pages across these internets, multiplying its audience, and immortalizing it's existence.
+
+Mammoth + Advocate = MAX Vol.
+
+(Read More)[https://itdawns.org/]
