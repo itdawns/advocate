@@ -42,7 +42,7 @@ It's easy:
 
 Mammoth is a malleable router used for mesh networking, privacy & security (ex. runs cryptocurrency wallets), and bridging 'fragmented internets' such as Tor, Maidsafe, Freenet, etc.
 
-Mammoth deploys pages to multiple internets, **multiplying** its audience, and **immortalizing it** in distributed networks. Mammoths don't stop for red lights.
+Mammoth deploys pages to multiple internets, **multiplying** its audience, and **immortalizing it** in distributed networks.
 
 Mammoth + Advocate = MAX Vol.
 
