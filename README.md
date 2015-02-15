@@ -2,12 +2,12 @@
 
 Advocate generates websites, saving you from HTML, depression, and baldness.
 
-# Vision
+## Vision
 
 Advocate is all about enabling participation in the global connected society. People share ideas, share information, teach, imagine, find creative synergy and do amazing things. However, building a simple webpage requires expertise that less than 1% of people have.
 Advocate does some handy stuff:
 
-# Bullet Points (pew pew! *headshot*)
+## Bullet Points (pew pew! *headshot*)
 
  - generates pages
  - content creators and designers work with understandable components, not HTML/CSS/JS.
