@@ -2,7 +2,7 @@
 
 Advocate generates websites, saving you from HTML, depression, and baldness.
 
-###How is Advocate [different]((https://quip.com/tGHSAacpcntb) from the other 10,000 static page generators?
+###How is Advocate [different](https://quip.com/tGHSAacpcntb) from the other 10,000 static page generators?
 
 ## Vision
 
