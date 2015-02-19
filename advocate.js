@@ -2,8 +2,9 @@
 
 var program = require('commander');
 
-var generate = require('./lib/commands/generate')
 var scaffold = require('./lib/commands/scaffold')
+var section = require('./lib/commands/section')
+var generate = require('./lib/commands/generate')
 
 program
 	.version('1.0.0')
@@ -13,6 +14,11 @@ program
 	.command('scaffold')
 	.description('Generate configuration files for a template, component or structure')
 	.action(scaffold);
+
+program
+	.command('section')
+	.description('Add templates and sections to your project ')
+	.action(section);
 
 program
 	.command('generate [path]')
