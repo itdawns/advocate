@@ -1,16 +1,32 @@
+#!/usr/bin/env node
 
-var _ = require('lodash');
-var commands = require('./lib/commands');
+var program = require('commander');
 
-// Proxy The Command into ./lib/commands
+var generate = require('./lib/commands/generate')
+var scaffold = require('./lib/commands/scaffold')
 
-// Args
-var argv = require('minimist')(process.argv.slice(2));
-var cmd = argv['_'][0];
+program
+	.version('1.0.0')
 
-// Valid Command?
-if (typeof cmd !== 'string' || typeof commands[cmd] !== 'object') {
-    cmd = 'help';
+
+program
+	.command('scaffold')
+	.description('Generate configuration files for a template, component or structure')
+	.action(scaffold);
+
+program
+	.command('generate [path]')
+	.description('Generate website')
+	.action(generate);
+
+program.on('*', function (command) {
+    this.commands.some(function (command) {
+      return command._name === process.argv[0];
+    }) || this.help();
+  })
+
+program.parse(process.argv);
+
+if (!process.argv.slice(2).length) {
+  program.outputHelp();
 }
-
-return commands[cmd].run(argv);

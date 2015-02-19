@@ -2,18 +2,17 @@
   "name": "advocate",
   "version": "1.0.0",
   "description": "static site generator for web teams",
-  "main": "advocate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Daniel Sont",
   "license": "ISC",
+  "bin": "./advocate.js",
+  "engines": {
+    "iojs": "*"
+  },
   "dependencies": {
-    "async": "^0.9.0",
-    "fs": "0.0.2",
+    "commander": "^2.6.0",
+    "inquirer": "^0.8.0",
     "js-yaml": "^3.2.5",
     "lodash": "^3.1.0",
-    "node-dir": "^0.1.6",
-    "path": "^0.11.14"
+    "node-dir": "^0.1.6"
   }
 }
